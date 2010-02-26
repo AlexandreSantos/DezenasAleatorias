@@ -1,4 +1,4 @@
-    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+//    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
           String arr1 = this.txtf1.getText();
           String arr1NoSpacesBE = arr1.trim();
           String arr1NoSpaces = arr1NoSpacesBE.replace(" ", "");
@@ -39,8 +39,8 @@
              int contador = 0; // registra qtd de ocorrencias de dezena repetida
              
              /**
-              * Na dezena X armazena esse valor em uma variável, e percorre o restante
-              * das dezenas em procura do mesmo número, caso tenha 2 ocorrências cria um alerta
+              * Na dezena X armazena esse valor em uma variï¿½vel, e percorre o restante
+              * das dezenas em procura do mesmo nï¿½mero, caso tenha 2 ocorrï¿½ncias cria um alerta
               *
               */
              for(int i2 = 0; i2 < 6; i2++){
